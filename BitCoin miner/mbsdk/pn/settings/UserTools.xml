@@ -1,0 +1,1 @@
+<schemetools><global><tool command="make " flags="105" folder="%d../Debug" index="0" name="MicroBlaze Make All" params="all" parsepattern="" shortcut="0"></tool><tool command="make" flags="105" folder="%d../Debug" index="1" name="MicroBlaze Make Clean" params="clean" parsepattern="" shortcut="0"></tool></global></schemetools>

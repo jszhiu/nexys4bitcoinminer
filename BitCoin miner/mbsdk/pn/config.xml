@@ -1,0 +1,6 @@
+<config distribution="portable">
+	<userSettings path="settings"/>
+	<storeType value="Ini"/>
+	<extension path="ctagsnavigator.dll"/>
+	<extension path="customscheme.dll"/>
+</config>

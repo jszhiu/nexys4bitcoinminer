@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<clips name="Java">
+	<clip name="Main body"><![CDATA[
+  void main(void)
+  //
+  {
+    $0;
+  }
+
+]]></clip>
+	<clip name="Function body"><![CDATA[
+  void $0 (void)
+  //
+  {
+    ;
+  }
+
+]]></clip>
+	<clip name="return"><![CDATA[  return;
+$0]]></clip>
+	<clip name="if (short)"><![CDATA[  if ($0) {;}
+]]></clip>
+	<clip name="if"><![CDATA[  if ($0)
+  {
+    ;
+  }
+
+]]></clip>
+	<clip name="if else (short)"><![CDATA[  if ($0) {;} else {;}
+]]></clip>
+	<clip name="if else"><![CDATA[  if ($0)
+  {
+    ;
+  } 
+  else
+  {
+    ;
+  }
+
+]]></clip>
+	<clip name="if else if"><![CDATA[  if ($0)
+  {
+    ;
+  }
+  else if ()
+  {
+    ;
+  } 
+  else if ()
+  {
+    ;
+  } 
+  else
+  {
+    ;
+  }
+
+]]></clip>
+	<clip name="switch"><![CDATA[  switch ($0)
+  {
+    case ():
+      ;
+      break;
+
+    case ():
+      ;
+      break;
+
+    case ():
+      ;
+      break;
+
+    default:
+      ;
+      break;
+  }
+
+]]></clip>
+	<clip name="for (short)"><![CDATA[  for($0;;) {;}
+]]></clip>
+	<clip name="for"><![CDATA[  for($0;;)
+  {
+    ;    
+  }
+
+]]></clip>
+	<clip name="while (short)"><![CDATA[  while($0) {;}
+]]></clip>
+	<clip name="while"><![CDATA[  while($0)
+  {
+    ;
+  }
+
+]]></clip>
+	<clip name="do while (short)"><![CDATA[  do {;} while ($0);
+]]></clip>
+	<clip name="do while"><![CDATA[  do
+  {
+    ;
+  }
+  while ($0);
+
+]]></clip>
+	<clip name="break"><![CDATA[  break;
+$0]]></clip>
+	<clip name="continue"><![CDATA[  continue;
+$0]]></clip>
+	<clip name="constant"><![CDATA[final static $0 = ;]]></clip>
+	<clip name="import"><![CDATA[import "$0";]]></clip>
+	<clip name="#include &lt;&gt;"><![CDATA[#include <$0>]]></clip>
+	<clip name="Comment /**/"><![CDATA[/*$0*/]]></clip>
+	<clip name="Comment //"><![CDATA[//$0]]></clip>	
+</clips>

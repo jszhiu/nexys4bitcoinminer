@@ -1,0 +1,100 @@
+<?xml version="1.0"?>
+<clips name="Pascal/Delphi">
+	<clip name="Main body"><![CDATA[
+ 
+  begin
+    $0;
+  end.
+
+]]></clip>
+	<clip name="Function body"><![CDATA[
+	function $0(param1: int):int;
+	var  ;
+	begin
+	end;
+]]></clip>
+	<clip name="Procedure body"><![CDATA[
+	Procedure $0();
+	var  ;
+	begin
+	end;
+]]></clip>
+<clip name="exit proc/function"><![CDATA[  exit;
+$0]]></clip>
+<clip name="exit program"><![CDATA[  halt(0);
+$0]]></clip>
+	<clip name="if (short)"><![CDATA[  if ($0) then ;
+]]></clip>
+	<clip name="if"><![CDATA[  if ($0) then
+  begin
+    ;
+  end;
+
+]]></clip>	
+	<clip name="if else"><![CDATA[  if ($0) then
+  begin
+    ;
+  end 
+  else begin
+    ;
+  end;
+
+]]></clip>
+	<clip name="if else if"><![CDATA[  if ($0) then
+  begin
+    ;
+  end 
+  else begin
+    ;
+  end 
+  else begin
+  end;
+
+]]></clip>
+	<clip name="case (switch)"><![CDATA[ case ($0) of
+      :
+      begin
+      end;
+
+      :
+      begin
+      end;
+
+      :
+      begin
+      end;
+
+      else
+      begin
+      end;
+
+end;
+
+]]></clip>	
+	<clip name="for"><![CDATA[  for $0 to do
+  begin
+    ;    
+  end;
+
+]]></clip>
+	
+	<clip name="repeat"><![CDATA[  repeat 
+  
+    ;
+  until $0;
+
+]]></clip>
+	
+	<clip name="do while"><![CDATA[  while ($0) do
+  begin
+    ;
+  end;
+
+]]></clip>
+	<clip name="constant"><![CDATA[const $0 = ;]]></clip>
+	<clip name="variable section"><![CDATA[var $0 = ;]]></clip>
+	<clip name="variable assign"><![CDATA[  $0:=; ]]></clip>
+	<clip name="use library"><![CDATA[uses "$0";]]></clip>
+	<clip name="Comment "><![CDATA[{$0}]]></clip>
+	<clip name="Comment //"><![CDATA[//$0]]></clip>	
+</clips>

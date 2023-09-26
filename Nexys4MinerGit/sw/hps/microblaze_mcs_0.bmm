@@ -1,0 +1,16 @@
+ADDRESS_MAP U0_microblaze_I MICROBLAZE-LE 100
+  ADDRESS_SPACE microblaze_mcs_0_lmb_bram_combined COMBINED [0x00000000:0x00007fff]
+    ADDRESS_RANGE RAMB32
+      BUS_BLOCK
+        U0/lmb_bram_I/RAM_Inst/Using_B36_S4.The_BRAMs[0].RAMB36_I1 [31:28] INPUT = microblaze_mcs_0.lmb_bram_0.mem;
+        U0/lmb_bram_I/RAM_Inst/Using_B36_S4.The_BRAMs[1].RAMB36_I1 [27:24] INPUT = microblaze_mcs_0.lmb_bram_1.mem;
+        U0/lmb_bram_I/RAM_Inst/Using_B36_S4.The_BRAMs[2].RAMB36_I1 [23:20] INPUT = microblaze_mcs_0.lmb_bram_2.mem;
+        U0/lmb_bram_I/RAM_Inst/Using_B36_S4.The_BRAMs[3].RAMB36_I1 [19:16] INPUT = microblaze_mcs_0.lmb_bram_3.mem;
+        U0/lmb_bram_I/RAM_Inst/Using_B36_S4.The_BRAMs[4].RAMB36_I1 [15:12] INPUT = microblaze_mcs_0.lmb_bram_4.mem;
+        U0/lmb_bram_I/RAM_Inst/Using_B36_S4.The_BRAMs[5].RAMB36_I1 [11:8] INPUT = microblaze_mcs_0.lmb_bram_5.mem;
+        U0/lmb_bram_I/RAM_Inst/Using_B36_S4.The_BRAMs[6].RAMB36_I1 [7:4] INPUT = microblaze_mcs_0.lmb_bram_6.mem;
+        U0/lmb_bram_I/RAM_Inst/Using_B36_S4.The_BRAMs[7].RAMB36_I1 [3:0] INPUT = microblaze_mcs_0.lmb_bram_7.mem;
+      END_BUS_BLOCK;
+    END_ADDRESS_RANGE;
+  END_ADDRESS_SPACE;
+END_ADDRESS_MAP;

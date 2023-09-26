@@ -1,0 +1,65 @@
+Author:
+-------
+Simon Steele
+
+Code / Design Contributors:
+---------------------------
+Bjoern Graf
+Klaus Kurzawa
+Mike Ditum
+Vassili Bourdo
+Oleg Gerasimov
+Vambola Kotkas
+Manuel Sandoval
+James Yoneda
+Prafulla Tekawade
+Murphy McCauley
+Jesse Fang
+Jörgen Sigvardsson
+Zoran "Hackadelic" Isailovski
+
+Documentation:
+--------------
+F. Mark Schiavone
+
+Libraries:
+----------
+Daniel Bowen (Tabbing Framework)
+Sergey Klimov (Docking Framework)
+Neil Hodgson + Community (Scintilla)
+Boost Community
+Philip Hazel (PCRE) - no longer used
+
+Artwork:
+--------
+Some icons from the famfamfam.com Silk icons set (http://www.famfamfam.com/lab/icons/silk/).
+
+Schemes/Presets:
+----------------
+Steve Baer (Modula-2)
+Jon “Teh Dude” Smith (Solarized Light Preset)
+
+Translations:
+-------------
+James Fancy (Simplified-Chinese)
+Simon Steele (British English)
+Nyári Péter (Hungarian)
+Victor Adascalitei (Romanian)
+CoDEmanX (German)
+B. Konstantin (Russian)
+Vico (Spanish)
+
+Testers:
+--------
+Robert Scarborough
+Adam Scheinberg
+Darren Schroeder
+Eric Weddington
+David Symons
+John Hawkins
+Richard Mansfield
+Jim Brooks
+Harold Krueger VI
+Sam Collett
+Will McCutchen
+Tadas Vizbaras
